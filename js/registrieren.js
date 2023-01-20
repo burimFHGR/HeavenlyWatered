@@ -64,7 +64,7 @@ function registerWithBackandValidation(){
 
         //3 Sekunden warten 
         setTimeout(function(){
-        window.location.href = "https://372401-5.web.fhgr.ch/";
+        window.location.href = "https://372401-5.web.fhgr.ch/login.html";
         }, 3000);
         
     })
