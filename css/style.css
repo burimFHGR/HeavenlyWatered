@@ -1,1 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F5FBFC;
+
+}
+
+h1 {
+
+    font-size: 40px;
+    color: #552C12;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.container-logo {
+padding:1em;
+background-color: #F5FBFC;
+
+}
+
+h2 {
+
+    font-size: 30px;
+    color: #552C12;    
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+
+}
+
+h3 {
+    padding-bottom: 3rem;
+    padding-left: 10rem;
+    padding-top: 2rem;
+}
+
+h4 {
+    padding-left: 10rem;
+}
+
+h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    padding-left: 10rem;
+}
+
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    padding-left: 3rem;
+}
+
+
+header {
+    background-color: #D3AFA3;
+    margin: 0;
+    padding:0;
+    
+}
+
+label{
+    color: #552C12;
+
+}
+
+.title{
+
+    text-align: center;
+}
+
+a {
+
+    color: #552C12;
+    text-decoration: none;
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    margin: 10px;
+    width: 50%;
+}
+
+button {
+
+    margin: 10px;
+    padding-left: 3rem;
+    padding-top: 1rem;
+
+
+}
+
+.dropdown{
+
+    margin: 10px;  
+}
+
+.Inserat {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-right: 65%;
+}
+
+.Inserat-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left:3rem;
+    margin-right: 1rem;
+}
+
+.text {
+    margin-left: 3rem;
+}
+
+
+#liste-wg {
+
+    width: 50%;
+    margin: auto;
+
+}
+
+nav {
+    text-align: right;
+}
+
+button {
+    background-color: #59B4C7;
+    border: none;
+    color: #F5FBFC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+#infoText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.flex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    margin-left: 3rem;
+}
+
+textarea {
+    margin-left: 3rem;
+}
+
+img {
+    margin-left: 3rem;
+}
+
+#bildlogo {
+    margin-left: 0rem;
+}
+
+#bildblumen {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#Profil {
+    width: 300px;
+    height: 100px;
+    position: sticky;
+     margin-top: -7em;
+}
+
+#button-loeschen{
+    background-color: red;
+    border: #59B4C7;
+    color: white;
+}
+
+.hidden{
+  display: none;
+}
+
+
+p {
+    padding-left: 3rem; 
+ }
+ 
+ #beschreibung {
+     padding: 2rem;
+ }
+ 
+ #angebot {
+     padding: 2rem;
+ }
+ 
+ #about_me {
+     padding-bottom: 4rem;
+     padding-right: 20rem;
+ }
+
+ label{
+    padding-left: 3em;
+ }
+
+ #BodyContainer{
+padding-top: 1em;
+ }
+
+ .registrieren-button {
+    background-color: #59B4C7;
+    border: none;
+    color: #F5FBFC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 0;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.move-right {
+    position: relative;
+    left: 10px;
+}
+
+#friedhof{
+    margin-left: 3.5em;
+ }
