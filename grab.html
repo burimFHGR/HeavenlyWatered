@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Grab</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="inserat-body">
+
+    <header class="flex">
+
+        <div class="container-header">
+
+            <h2>Neues Grabinserat</h2>
+
+        </div>
+
+        <div class="container-header">
+
+
+        </div>
+
+        <nav class="container-header">
+
+            <a href="../">
+
+                <button id="neuesGrab"> Alle Inserate</button>
+                
+            </a>
+
+            <button id="logout" onclick="logout()"> Logout </button>
+
+        </nav>
+
+    </header>
+
+    <p id="infoText"> </p>
+
+
+    <div id="meinInserat">
+
+        <label for="titel">Titel</label> <br>
+        <input id="titel" type="text" value=""> <br>
+
+        <img id="bild-vorschau" width="200px" src="" alt=""> <br>
+        <img src="/img/tombstone.png" alt="tombstone_default_image" width="200" height="170">
+        <br> <br>
+
+        <label for="friedhof">Friedhof</label> <br><br> 
+        <select id="friedhof" value=""> 
+        <option value="1">Friedhof Zürich Sihlfeld</option> 
+        <option value="2">Friedhof Wolfgottesacker Basel</option>
+        <option value="3">Friedhof Rosengarten Aarau</option>
+        </select> <br> <br> 
+
+        <label for="beschreibung">Beschreibung</label> <br>
+        <textarea id="beschreibung" name="beschreibung"> </textarea> <br> <br>
+
+        <label for="angebot">Ich biete</label> <br>
+        <textarea id="angebot" name="angebot"> </textarea> <br> <br>
+
+        </div>
+       
+        <button class="hidden" id="button-neue" onclick="neuesGrab()">Veröffentlichen</button>
+        <button class="hidden" id="button-aktualisieren" onclick="aktualisiereGrab()">Aktualisieren</button>
+        <button class="hidden" id="button-loeschen" onclick="loescheGrab()">Löschen</button>
+
+        <p id="nachricht"> </p>
+
+    </div>
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/grab.js"></script>
+
+</body>
+
+</html>

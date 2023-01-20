@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Profil</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="inserat-body">
+
+    <header class="flex">
+
+        <div class="container-header">
+
+            <h2>Mein Profil</h2>
+
+        </div>
+
+        <div class="container-header">
+
+            
+
+
+        </div>
+
+        <nav class="container-header">
+
+            <a href="../">
+
+                <button id="neuesGrab"> Alle Inserate</button>
+                
+            </a>
+
+            <button id="logout" onclick="logout()"> Logout </button>
+
+        </nav>
+
+    </header>
+
+    <p id="infoText"> </p>
+
+
+    <div id="meinProfil">
+
+        <label for="name">Name</label> <br>
+        <input id="name" type="text" value=""> <br>
+
+        <label for="email">E-Mail</label> <br>
+        <input id="email" type="text" value=""> <br>
+
+
+        <label for="profilbild">Profilbild</label> <br>
+        <img id="bildvorschau" src="" alt="" width="200" height="200">
+        <input id="bild" type="text" value=""> <br>
+        <br> <br>
+
+
+        <label for="about_me">Über mich</label> <br>
+        <textarea id="about_me" name="about_me"> </textarea> <br> <br>
+
+        </div>
+       
+        <button class="hidden" id="button-aktualisieren" onclick="aktualisiereProfil()">Profil aktualisieren</button>
+        <button class="hidden" id="button-loeschen" onclick="loescheProfil()">Profil löschen</button>
+
+        <p id="nachricht"> </p>
+
+    </div>
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/profil.js"></script>
+
+</body>
+
+</html>
