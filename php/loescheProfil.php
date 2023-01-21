@@ -3,6 +3,8 @@
 require_once('config.php');
 require_once('autorisieren.php');
 
+//diese zwei SQL-Befehle hätte man auch in einem INNER-JOIN kombinieren können... I know :)
+
 $userID = $_POST["userID"];
 
 $sqlSession = "DELETE FROM Session WHERE user_ID = ?;";
@@ -11,8 +13,7 @@ $stmtSession = $pdo->prepare($sqlSession);
 
 $erfolgSession = $stmtSession->execute([$userID]);
 
-// falls erfolg true bzw. 1 ist
-// lösche ebenfalls die Hashtags zur WG
+
 if ($erfolgSession) {
 
     echo "Deine Sitzung";
